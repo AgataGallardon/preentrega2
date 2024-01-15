@@ -1,0 +1,104 @@
+/* en el index */
+body {
+    background-color: grey;
+}
+
+
+h1 {
+
+
+    font-size: 70px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    
+    display: block;
+  
+  }
+  
+
+  
+  h2 {
+    margin-top: 20px; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+
+  h3 {
+    margin-top: 50px; 
+ text-align: center; 
+}
+
+
+/* Estilos generales para tus botones */
+.botones {
+  padding: 10px 20px;
+  background-color: black;
+  color: grey;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Espaciado entre el botón y la imagen */
+}
+
+/* Estilos para el estado hover de los botones */
+.botones:hover {
+  background-color: grey;
+  color: black;
+}
+
+/* Estilos para las imágenes y botones */
+.contenedordeimagenes {
+  display: flex;
+  justify-content: space-around; /* Espaciado entre las imágenes */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+}
+
+.imagen-con-botones {
+  text-align: center; /* Alinea el contenido al centro */
+  margin-bottom: 20px; /* Espaciado entre cada par de imagen y botón */
+  width: 180px; /* Ancho fijo para cada contenedor */
+}
+
+.imagen-con-botones img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+
+
+
+.mapa
+{
+    display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+}
+
+.videolava2, .videolava3, .videolava4carbon, .videolava4spruce, .videolavaplay
+
+{
+    display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+}
+
+
+.grid-containerpantallayvideo {
+  display: grid;
+ grid-template-rows: 1fr 3fr
+ ; grid-template-columns:  1fr;
+
+
+}
+
+.item {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.funcionestouch
+{padding: top 75px;}
